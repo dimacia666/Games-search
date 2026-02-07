@@ -7,11 +7,11 @@ margin: 0;
 }
 
 .header{
-    max-width: 1440px;
     background-color: var(--bgc);
     padding: 16px 0;
 
 }
+
 .header-container{
     display: flex;
     align-items: center;
@@ -32,9 +32,11 @@ margin: 0;
     padding: 0 16px;
 }
 
-.icon{
+.icon {
     width: 28px;
     height: 28px;
+    fill: currentColor; 
+    color: #fff;
 }
 
 .hero{
@@ -42,11 +44,15 @@ margin: 0;
     background-size: cover;
     background-color: var(--bgc);
         height: auto;
-    max-width: 1440px;
 }
 
 .baner {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.games-winer {
+        background-color: var(--bgc);
+        height: 88px;
 }
