@@ -2,12 +2,15 @@
 
 body{
     font-family: var(--font-main);
-margin: 0;
-
+    margin: 0;
 }
 
+
+
+//header
+
 .header{
-    background-color: var(--bgc);
+    background-color: var(--Global-BG);
     padding: 16px 0;
 
 }
@@ -25,7 +28,7 @@ margin: 0;
     font-weight: 500;
     line-height: 20px;
     text-decoration: none;
-    color: var(--color-text);
+    color: #fff;
     font-feature-settings: 'liga' off, 'clig' off;
     width: 57px;
     height: 20px;
@@ -39,10 +42,14 @@ margin: 0;
     color: #fff;
 }
 
+
+
+//Section Hero
+
 .hero{
     
     background-size: cover;
-    background-color: var(--bgc);
+    background-color: var(--Global-BG);
         height: auto;
 }
 
@@ -53,6 +60,34 @@ margin: 0;
 }
 
 .games-winer {
-        background-color: var(--bgc);
-        height: 88px;
+    background-color: var(--Global-BG);
+    height: 88px;
+}
+
+
+
+//Section Games Winer">
+.games-winer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow-x: auto;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch; // плавный скролл на iOS
+    scrollbar-width: none; // скрыть скролл в Firefox
+    &::-webkit-scrollbar {
+    display: none;
+    padding: 0;
+    }// скрыть скролл в Chrome, Safari, Edge
+}
+
+.game-winer-cards{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 8px; 
+        flex-wrap: nowrap;
+        padding: 0 24px;
 }
