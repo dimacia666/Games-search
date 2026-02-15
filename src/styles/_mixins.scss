@@ -15,3 +15,19 @@
     font-weight: 400;
     line-height: 16px;
 }
+
+@mixin bold-lead{
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+@mixin medium-small{
+    font-family: Rubik, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
