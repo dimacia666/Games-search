@@ -1,4 +1,5 @@
 @use './variables' as *;
+@use '/src/styles/mixins' as *;
 
 body{
     font-family: var(--font-main);
@@ -7,7 +8,7 @@ body{
 
 
 
-//header
+//Header
 
 .header{
     background-color: var(--Global-BG);
@@ -40,6 +41,7 @@ body{
     height: 28px;
     fill: currentColor; 
     color: #fff;
+    cursor: pointer;
 }
 
 
@@ -67,6 +69,7 @@ body{
 
 
 //Section Games Winer">
+
 .games-winer {
     width: 100%;
     display: flex;
@@ -83,11 +86,101 @@ body{
 }
 
 .game-winer-cards{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 8px; 
-        flex-wrap: nowrap;
-        padding: 0 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8px; 
+    flex-wrap: nowrap;
+    padding: 0 24px;
+}
+
+
+
+//Section Filters
+
+.filters {
+    height: 40px;
+    width: 100% auto;
+    background-color: var(--Global-BG);
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left side */
+.filters-left {
+    display: flex;
+}
+
+/* Tabs */
+.filter-btn {
+/* Layout */
+    display: flex;
+    width: 112px;
+    padding: 8px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+/* Style */
+    border-radius: 12px;
+    background-color: var(--Global-BG);
+    cursor: pointer;
+/* Typograghy */
+    @include bold-lead;
+    color: var(--Global-white, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+}
+
+.filter-btn.is-active {
+    border: 1px solid;
+    border-color: var(--Main-Primary);
+}
+
+/* Right side */
+.filters-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-btn {
+/* Layout */
+    display: flex;
+    height: 24px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+/* Style */
+    border: none;
+    border-radius: 8px;
+    background: var(--Global-Fill-dark, #2B324C);
+    color: var(--Global-white);
+    cursor: pointer;
+}
+
+.nav-chevron{
+    fill: currentColor;
+}
+
+.show-all-btn {
+/* Layout */
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+/* Style */
+    border: none;
+    border-radius: 8px;
+    background: var(--Global-Fill-dark, #2B324C);
+    cursor: pointer;
+/* Typograghy */
+    color: var(--Global-white, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    @include medium-small
+    
 }
