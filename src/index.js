@@ -12,3 +12,15 @@ import { renderGameWiner } from './components/game_winer/game_winer';
 
 // запуск рендера
 renderGameWiner();
+
+// импорт RecentGameCards
+import { renderRecentGameCards } from './components/card/card';
+
+// запуск рендера
+renderRecentGameCards();
+
+// импорт TopGamesGameCards
+import { renderTopGamesGameCards } from './components/card/card';
+
+// запуск рендера
+renderTopGamesGameCards();

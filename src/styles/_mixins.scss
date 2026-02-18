@@ -31,3 +31,11 @@
     font-weight: 500;
     line-height: 16px;
 }
+
+@mixin bold-body{
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}

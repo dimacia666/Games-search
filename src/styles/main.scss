@@ -4,6 +4,9 @@
 body{
     font-family: var(--font-main);
     margin: 0;
+    width: auto;
+    height: 1054px;
+    background-color: var(--Global-BG);
 }
 
 
@@ -182,5 +185,70 @@ body{
     color: var(--Global-white, #FFF);
     font-feature-settings: 'liga' off, 'clig' off;
     @include medium-small
-    
 }
+
+
+
+//Section Resent Games
+
+.games-resent{
+    width: 100%;
+    height: 232px;
+    background-color: var(--Global-BG);
+}
+
+.resent-game-cards{
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    padding: 16px 24px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; // плавный скролл на iOS
+    scrollbar-width: none; // скрыть скролл в Firefox
+    &::-webkit-scrollbar {
+        display: none;
+        padding: 0;
+        } // скрыть скролл в Chrome, Safari, Edge
+}
+
+
+
+//Section Top games
+
+.top-games{
+    width: 100% auto;
+    height: 32px;
+    padding: 0 24px;
+    background-color: var(--Global-BG);
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.top-games-header{
+    /* Layout */
+    width: 199px;
+    margin: 0;
+    /* Typograghy */
+    color: var(--Global-white, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    @include bold-lead
+}
+
+
+
+//Section Games Top Games
+
+.top-games-game-cards{
+    display: flex;
+    gap: 8px;
+    padding: 0 24px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; // плавный скролл на iOS
+    scrollbar-width: none; // скрыть скролл в Firefox
+     &::-webkit-scrollbar {
+        display: none;
+        padding: 0;
+        } // скрыть скролл в Chrome, Safari, Edge
+}
+

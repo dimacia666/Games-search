@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card/card.scss"
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card/card.scss ***!
+  \********************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.game-card {\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n}\n\n.game-card-image {\n  width: 272px;\n  height: 188px;\n}\n\n.game-card-text {\n  width: 256px;\n  height: 20px;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  padding: 4px 8px;\n  gap: 8px;\n}\n\n.game-card-provider {\n  width: 16px;\n  height: 16px;\n  fill: currentColor;\n  color: var(--Greyscale-200, #9FA1AA);\n}\n\n.game-card-title {\n  /* Typograghy */\n  color: var(--Greyscale-200, #9FA1AA);\n  text-align: center;\n  font-feature-settings: \"liga\" off, \"clig\" off;\n  font-family: Rubik;\n  font-size: 14px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 20px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://games-search/./src/components/card/card.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js\n}");
+
+/***/ },
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/game_winer/game_winer.scss"
 /*!********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/game_winer/game_winer.scss ***!
@@ -26,7 +36,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \***********************************************************************************************************/
 (module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n  --Global-BG: #0F152B;\n  --Global-white: #FFF;\n  --Global-Fill-dark: #2B324C;\n  --font-main: 'Rubik', sans-serif;\n  --Main-Primary: #FF8500;\n  --Main-Secondary: #289211;\n}\n\nbody {\n  font-family: var(--font-main);\n  margin: 0;\n}\n\n.header {\n  background-color: var(--Global-BG);\n  padding: 16px 0;\n}\n\n.header-container {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 24px;\n}\n\n.logo {\n  font-size: 24px;\n  font-style: normal;\n  font-weight: 500;\n  line-height: 20px;\n  text-decoration: none;\n  color: #fff;\n  font-feature-settings: \"liga\" off, \"clig\" off;\n  width: 57px;\n  height: 20px;\n  padding: 0 16px;\n}\n\n.icon {\n  width: 28px;\n  height: 28px;\n  fill: currentColor;\n  color: #fff;\n  cursor: pointer;\n}\n\n.hero {\n  background-size: cover;\n  background-color: var(--Global-BG);\n  height: auto;\n}\n\n.baner {\n  display: block;\n  width: 100%;\n  height: auto;\n}\n\n.games-winer {\n  background-color: var(--Global-BG);\n  height: 88px;\n}\n\n.games-winer {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: left;\n  overflow-x: auto;\n  box-sizing: border-box;\n  -webkit-overflow-scrolling: touch;\n  scrollbar-width: none;\n}\n.games-winer::-webkit-scrollbar {\n  display: none;\n  padding: 0;\n}\n\n.game-winer-cards {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  gap: 8px;\n  flex-wrap: nowrap;\n  padding: 0 24px;\n}\n\n.filters {\n  height: 40px;\n  width: 100% auto;\n  background-color: var(--Global-BG);\n  padding: 0 24px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n/* Left side */\n.filters-left {\n  display: flex;\n}\n\n/* Tabs */\n.filter-btn {\n  /* Layout */\n  display: flex;\n  width: 112px;\n  padding: 8px 4px;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n  border: none;\n  /* Style */\n  border-radius: 12px;\n  background-color: var(--Global-BG);\n  cursor: pointer;\n  /* Typograghy */\n  font-family: Rubik, sans-serif;\n  font-size: 16px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 24px;\n  color: var(--Global-white, #FFF);\n  font-feature-settings: \"liga\" off, \"clig\" off;\n}\n\n.filter-btn.is-active {\n  border: 1px solid;\n  border-color: var(--Main-Primary);\n}\n\n/* Right side */\n.filters-right {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n\n.nav-btn {\n  /* Layout */\n  display: flex;\n  height: 24px;\n  padding: 4px;\n  justify-content: center;\n  align-items: center;\n  gap: 8px;\n  /* Style */\n  border: none;\n  border-radius: 8px;\n  background: var(--Global-Fill-dark, #2B324C);\n  color: var(--Global-white);\n  cursor: pointer;\n}\n\n.nav-chevron {\n  fill: currentColor;\n}\n\n.show-all-btn {\n  /* Layout */\n  display: flex;\n  padding: 4px 8px;\n  justify-content: center;\n  align-items: center;\n  gap: 4px;\n  /* Style */\n  border: none;\n  border-radius: 8px;\n  background: var(--Global-Fill-dark, #2B324C);\n  cursor: pointer;\n  /* Typograghy */\n  color: var(--Global-white, #FFF);\n  font-feature-settings: \"liga\" off, \"clig\" off;\n  font-family: Rubik, sans-serif;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 500;\n  line-height: 16px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://games-search/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n  --Global-BG: #0F152B;\n  --Global-white: #FFF;\n  --Global-Fill-dark: #2B324C;\n  --font-main: 'Rubik', sans-serif;\n  --Main-Primary: #FF8500;\n  --Main-Secondary: #289211;\n}\n\nbody {\n  font-family: var(--font-main);\n  margin: 0;\n  width: auto;\n  height: 1054px;\n  background-color: var(--Global-BG);\n}\n\n.header {\n  background-color: var(--Global-BG);\n  padding: 16px 0;\n}\n\n.header-container {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 24px;\n}\n\n.logo {\n  font-size: 24px;\n  font-style: normal;\n  font-weight: 500;\n  line-height: 20px;\n  text-decoration: none;\n  color: #fff;\n  font-feature-settings: \"liga\" off, \"clig\" off;\n  width: 57px;\n  height: 20px;\n  padding: 0 16px;\n}\n\n.icon {\n  width: 28px;\n  height: 28px;\n  fill: currentColor;\n  color: #fff;\n  cursor: pointer;\n}\n\n.hero {\n  background-size: cover;\n  background-color: var(--Global-BG);\n  height: auto;\n}\n\n.baner {\n  display: block;\n  width: 100%;\n  height: auto;\n}\n\n.games-winer {\n  background-color: var(--Global-BG);\n  height: 88px;\n}\n\n.games-winer {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: left;\n  overflow-x: auto;\n  box-sizing: border-box;\n  -webkit-overflow-scrolling: touch;\n  scrollbar-width: none;\n}\n.games-winer::-webkit-scrollbar {\n  display: none;\n  padding: 0;\n}\n\n.game-winer-cards {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  gap: 8px;\n  flex-wrap: nowrap;\n  padding: 0 24px;\n}\n\n.filters {\n  height: 40px;\n  width: 100% auto;\n  background-color: var(--Global-BG);\n  padding: 0 24px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n/* Left side */\n.filters-left {\n  display: flex;\n}\n\n/* Tabs */\n.filter-btn {\n  /* Layout */\n  display: flex;\n  width: 112px;\n  padding: 8px 4px;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n  border: none;\n  /* Style */\n  border-radius: 12px;\n  background-color: var(--Global-BG);\n  cursor: pointer;\n  /* Typograghy */\n  font-family: Rubik, sans-serif;\n  font-size: 16px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 24px;\n  color: var(--Global-white, #FFF);\n  font-feature-settings: \"liga\" off, \"clig\" off;\n}\n\n.filter-btn.is-active {\n  border: 1px solid;\n  border-color: var(--Main-Primary);\n}\n\n/* Right side */\n.filters-right {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n\n.nav-btn {\n  /* Layout */\n  display: flex;\n  height: 24px;\n  padding: 4px;\n  justify-content: center;\n  align-items: center;\n  gap: 8px;\n  /* Style */\n  border: none;\n  border-radius: 8px;\n  background: var(--Global-Fill-dark, #2B324C);\n  color: var(--Global-white);\n  cursor: pointer;\n}\n\n.nav-chevron {\n  fill: currentColor;\n}\n\n.show-all-btn {\n  /* Layout */\n  display: flex;\n  padding: 4px 8px;\n  justify-content: center;\n  align-items: center;\n  gap: 4px;\n  /* Style */\n  border: none;\n  border-radius: 8px;\n  background: var(--Global-Fill-dark, #2B324C);\n  cursor: pointer;\n  /* Typograghy */\n  color: var(--Global-white, #FFF);\n  font-feature-settings: \"liga\" off, \"clig\" off;\n  font-family: Rubik, sans-serif;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 500;\n  line-height: 16px;\n}\n\n.games-resent {\n  width: 100%;\n  height: 232px;\n  background-color: var(--Global-BG);\n}\n\n.resent-game-cards {\n  margin: 0;\n  display: flex;\n  gap: 8px;\n  padding: 16px 24px;\n  overflow-x: auto;\n  -webkit-overflow-scrolling: touch;\n  scrollbar-width: none;\n}\n.resent-game-cards::-webkit-scrollbar {\n  display: none;\n  padding: 0;\n}\n\n.top-games {\n  width: 100% auto;\n  height: 32px;\n  padding: 0 24px;\n  background-color: var(--Global-BG);\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.top-games-header {\n  /* Layout */\n  width: 199px;\n  margin: 0;\n  /* Typograghy */\n  color: var(--Global-white, #FFF);\n  font-feature-settings: \"liga\" off, \"clig\" off;\n  font-family: Rubik, sans-serif;\n  font-size: 16px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 24px;\n}\n\n.top-games-game-cards {\n  display: flex;\n  gap: 8px;\n  padding: 0 24px;\n  overflow-x: auto;\n  -webkit-overflow-scrolling: touch;\n  scrollbar-width: none;\n}\n.top-games-game-cards::-webkit-scrollbar {\n  display: none;\n  padding: 0;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://games-search/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js\n}");
 
 /***/ },
 
@@ -47,6 +57,16 @@ eval("{\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\
 (module) {
 
 eval("{\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://games-search/./node_modules/css-loader/dist/runtime/noSourceMaps.js?\n}");
+
+/***/ },
+
+/***/ "./src/components/card/card.scss"
+/*!***************************************!*\
+  !*** ./src/components/card/card.scss ***!
+  \***************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_card_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card/card.scss\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\noptions.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_card_scss__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_card_scss__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_card_scss__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_card_scss__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://games-search/./src/components/card/card.scss?\n}");
 
 /***/ },
 
@@ -130,6 +150,16 @@ eval("{\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleEle
 
 /***/ },
 
+/***/ "./src/components/card/card.js"
+/*!*************************************!*\
+  !*** ./src/components/card/card.js ***!
+  \*************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   renderRecentGameCards: () => (/* binding */ renderRecentGameCards),\n/* harmony export */   renderTopGamesGameCards: () => (/* binding */ renderTopGamesGameCards)\n/* harmony export */ });\n/* harmony import */ var _assets_images_Alien_fruits_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../assets/images/Alien fruits.png */ \"./src/assets/images/Alien fruits.png\");\n/* harmony import */ var _assets_images_Candy_monsta_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/Candy monsta.png */ \"./src/assets/images/Candy monsta.png\");\n/* harmony import */ var _assets_images_Dice_bonanza_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/Dice bonanza.png */ \"./src/assets/images/Dice bonanza.png\");\n/* harmony import */ var _assets_images_Duel_of_dawn_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/Duel of dawn.png */ \"./src/assets/images/Duel of dawn.png\");\n/* harmony import */ var _assets_images_Hottest_666_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/Hottest 666.png */ \"./src/assets/images/Hottest 666.png\");\n/* harmony import */ var _assets_images_Luck_and_magic_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/Luck and magic.png */ \"./src/assets/images/Luck and magic.png\");\n/* harmony import */ var _assets_images_Lucky_blue_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/Lucky blue.png */ \"./src/assets/images/Lucky blue.png\");\n/* harmony import */ var _assets_images_Mechanical_clover_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/Mechanical clover.png */ \"./src/assets/images/Mechanical clover.png\");\n/* harmony import */ var _assets_images_Miss_cherry_fruits_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/images/Miss cherry fruits.png */ \"./src/assets/images/Miss cherry fruits.png\");\n/* harmony import */ var _assets_images_Money_tree_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/images/Money tree.png */ \"./src/assets/images/Money tree.png\");\n/* harmony import */ var _assets_images_Parrots_gold_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/images/Parrots gold.png */ \"./src/assets/images/Parrots gold.png\");\n/* harmony import */ var _assets_images_Rich_piggies_2_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../assets/images/Rich piggies 2.png */ \"./src/assets/images/Rich piggies 2.png\");\n/* harmony import */ var _assets_images_Wild_cash_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../assets/images/Wild cash.png */ \"./src/assets/images/Wild cash.png\");\n/* harmony import */ var _card_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./card.scss */ \"./src/components/card/card.scss\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst gamesCards = [{\n    gameImg: _assets_images_Alien_fruits_png__WEBPACK_IMPORTED_MODULE_0__,\n    gameName: \"Alien fruits\",\n    tag: 'top games',\n},{\n    gameImg: _assets_images_Candy_monsta_png__WEBPACK_IMPORTED_MODULE_1__,\n    gameName: \"Candy monsta\",\n    tag: 'top games',\n},{\n    gameImg: _assets_images_Dice_bonanza_png__WEBPACK_IMPORTED_MODULE_2__,\n    gameName: \"Dice bonanza\",\n    tag: 'top games',\n},{\n    gameImg: _assets_images_Duel_of_dawn_png__WEBPACK_IMPORTED_MODULE_3__,\n    gameName: \"Duel of dawn\",\n    tag: 'recent',\n},{\n    gameImg: _assets_images_Hottest_666_png__WEBPACK_IMPORTED_MODULE_4__,\n    gameName: \"Hottest 666\",\n    tag: 'top games',\n},{\n    gameImg: _assets_images_Luck_and_magic_png__WEBPACK_IMPORTED_MODULE_5__,\n    gameName: \"Luck and magic\",\n    tag: 'top games',\n},{\n    gameImg: _assets_images_Lucky_blue_png__WEBPACK_IMPORTED_MODULE_6__,\n    gameName: \"Lucky blue\",\n    tag: 'top games',\n},{\n    gameImg: _assets_images_Mechanical_clover_png__WEBPACK_IMPORTED_MODULE_7__,\n    gameName: \"Mechanical clover\",\n    tag: 'recent',\n},{\n    gameImg: _assets_images_Miss_cherry_fruits_png__WEBPACK_IMPORTED_MODULE_8__,\n    gameName: \"Miss cherry fruits\",\n    tag: 'recent',\n},{\n    gameImg: _assets_images_Money_tree_png__WEBPACK_IMPORTED_MODULE_9__,\n    gameName: \"Money tree\",\n    tag: 'new',\n},{\n    gameImg: _assets_images_Parrots_gold_png__WEBPACK_IMPORTED_MODULE_10__,\n    gameName: \"Parrots gold\",\n    tag: 'recent',\n},{\n    gameImg: _assets_images_Rich_piggies_2_png__WEBPACK_IMPORTED_MODULE_11__,\n    gameName: \"Rich piggies 2\",\n    tag: 'recent',\n},{\n    gameImg: _assets_images_Wild_cash_png__WEBPACK_IMPORTED_MODULE_12__,\n    gameName: \"Wild cash\",\n    tag: 'recent',\n    },]\n\n\n//Games Resent\n    \nfunction renderRecentGameCards() {\n  const container = document.querySelector(\".resent-game-cards\");\n\n  const markup = gamesCards\n    .filter(game => game.tag === \"recent\")\n    .map(({ gameImg, gameName, tag }) => `\n      <li class=\"game-card\">\n      \n          <img src=\"${gameImg}\" alt=\"${gameName}\" class=\"game-card-image\" />\n        <div class=\"game-card-text\">\n          <svg class=\"game-card-provider\">\n            <use href=\"./assets/svg/icon.svg#provider\"></use>\n          </svg>\n        <p class=\"game-card-title\">${gameName}</p>\n        </div>\n      </li>\n    `)\n    .join(\"\");\n\n  container.innerHTML = markup;\n}\n\n// Games Top Games\n\nfunction renderTopGamesGameCards() {\n  const container = document.querySelector(\".top-games-game-cards\");\n\n  const markup = gamesCards\n    .filter(game => game.tag === \"top games\")\n    .map(({ gameImg, gameName, tag }) => `\n      <li class=\"game-card\">\n      \n          <img src=\"${gameImg}\" alt=\"${gameName}\" class=\"game-card-image\" />\n        <div class=\"game-card-text\">\n          <svg class=\"game-card-provider\">\n            <use href=\"./assets/svg/icon.svg#provider\"></use>\n          </svg>\n        <p class=\"game-card-title\">${gameName}</p>\n        </div>\n      </li>\n    `)\n    .join(\"\");\n\n  container.innerHTML = markup;\n}\n\n//# sourceURL=webpack://games-search/./src/components/card/card.js?\n}");
+
+/***/ },
+
 /***/ "./src/components/game_winer/game_winer.js"
 /*!*************************************************!*\
   !*** ./src/components/game_winer/game_winer.js ***!
@@ -146,7 +176,137 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \**********************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _assets_images_baner_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/baner.png */ \"./src/assets/images/baner.png\");\n/* harmony import */ var _components_game_winer_game_winer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/game_winer/game_winer */ \"./src/components/game_winer/game_winer.js\");\n//Импорт стилей\n\n\n\n//Импорт банера\n\nconst banner = document.querySelector('.baner');\nbanner.src = _assets_images_baner_png__WEBPACK_IMPORTED_MODULE_1__;\n\n// импорт GameWiner\n\n\n// запуск рендера\n(0,_components_game_winer_game_winer__WEBPACK_IMPORTED_MODULE_2__.renderGameWiner)();\n\n//# sourceURL=webpack://games-search/./src/index.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _assets_images_baner_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/baner.png */ \"./src/assets/images/baner.png\");\n/* harmony import */ var _components_game_winer_game_winer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/game_winer/game_winer */ \"./src/components/game_winer/game_winer.js\");\n/* harmony import */ var _components_card_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/card/card */ \"./src/components/card/card.js\");\n//Импорт стилей\n\n\n\n//Импорт банера\n\nconst banner = document.querySelector('.baner');\nbanner.src = _assets_images_baner_png__WEBPACK_IMPORTED_MODULE_1__;\n\n// импорт GameWiner\n\n\n// запуск рендера\n(0,_components_game_winer_game_winer__WEBPACK_IMPORTED_MODULE_2__.renderGameWiner)();\n\n// импорт RecentGameCards\n\n\n// запуск рендера\n(0,_components_card_card__WEBPACK_IMPORTED_MODULE_3__.renderRecentGameCards)();\n\n// импорт TopGamesGameCards\n\n\n// запуск рендера\n(0,_components_card_card__WEBPACK_IMPORTED_MODULE_3__.renderTopGamesGameCards)();\n\n\n//# sourceURL=webpack://games-search/./src/index.js?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Alien fruits.png"
+/*!********************************************!*\
+  !*** ./src/assets/images/Alien fruits.png ***!
+  \********************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"008893b4c2d9169c05cf.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Alien_fruits.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Candy monsta.png"
+/*!********************************************!*\
+  !*** ./src/assets/images/Candy monsta.png ***!
+  \********************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"5107abd6fd68e311228b.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Candy_monsta.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Dice bonanza.png"
+/*!********************************************!*\
+  !*** ./src/assets/images/Dice bonanza.png ***!
+  \********************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"c5f0e41c746b33cc4bb7.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Dice_bonanza.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Duel of dawn.png"
+/*!********************************************!*\
+  !*** ./src/assets/images/Duel of dawn.png ***!
+  \********************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"3aa2a081f80be1f7b6ba.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Duel_of_dawn.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Hottest 666.png"
+/*!*******************************************!*\
+  !*** ./src/assets/images/Hottest 666.png ***!
+  \*******************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"484b4d5f26d99a59e130.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Hottest_666.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Luck and magic.png"
+/*!**********************************************!*\
+  !*** ./src/assets/images/Luck and magic.png ***!
+  \**********************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"e0576cf48d23f238b751.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Luck_and_magic.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Lucky blue.png"
+/*!******************************************!*\
+  !*** ./src/assets/images/Lucky blue.png ***!
+  \******************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"daf1cad66b2d11f51b52.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Lucky_blue.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Mechanical clover.png"
+/*!*************************************************!*\
+  !*** ./src/assets/images/Mechanical clover.png ***!
+  \*************************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"5cdfd03f33663ea62c19.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Mechanical_clover.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Miss cherry fruits.png"
+/*!**************************************************!*\
+  !*** ./src/assets/images/Miss cherry fruits.png ***!
+  \**************************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"31b9c35a88fb4a0fb671.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Miss_cherry_fruits.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Money tree.png"
+/*!******************************************!*\
+  !*** ./src/assets/images/Money tree.png ***!
+  \******************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"6f0ab8493080a0ad0389.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Money_tree.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Parrots gold.png"
+/*!********************************************!*\
+  !*** ./src/assets/images/Parrots gold.png ***!
+  \********************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"cbc02bde57ab8b40403c.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Parrots_gold.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Rich piggies 2.png"
+/*!**********************************************!*\
+  !*** ./src/assets/images/Rich piggies 2.png ***!
+  \**********************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"9480863a6d43f1cb9ab3.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Rich_piggies_2.png?\n}");
+
+/***/ },
+
+/***/ "./src/assets/images/Wild cash.png"
+/*!*****************************************!*\
+  !*** ./src/assets/images/Wild cash.png ***!
+  \*****************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"e74dcc55d5494630abf5.png\";\n\n//# sourceURL=webpack://games-search/./src/assets/images/Wild_cash.png?\n}");
 
 /***/ },
 
