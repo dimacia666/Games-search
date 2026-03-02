@@ -1,0 +1,140 @@
+@use '/src/styles/mixins' as *;
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    
+}
+
+.modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal__content{
+/*Layout*/
+    display: flex;
+    width: 800px;
+    height: 1144px;
+    padding-bottom: 24px;
+    flex-direction: column;
+    align-items: center;
+/*Style*/
+    border-radius: 16px;
+    background: var(--Global-BG, #0F152B);
+    margin: 99px 320px;
+    
+}
+
+
+
+//Section Modal Header
+
+.modal__header{
+/*Layout*/
+    width: 768px;
+    height: 24px;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+    // align-self: stretch;
+/*Style*/
+    border-radius: 16px 16px 0 0;
+    background: var(--Global-Fill-dark, #2B324C);
+}
+
+.modal__icon{
+/*Layout*/
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+/*Style*/
+    fill: var(--Global-white, #FFF);
+}
+
+.modal__heading{
+/*Typography*/
+    color: var(--Global-white, #FFF);
+    text-align: center;
+    @include headlines-headlines-h5;
+}
+
+.modal__close-btn{
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-color: var(--Global-Fill-dark,
+        #2B324C);
+    padding: 0;
+    cursor: pointer;
+}
+
+.modal__close-icon{
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    color: #FFF;
+}
+
+
+
+//Section Modal Search
+
+//Modal text
+
+.modal__text{
+/*Layout*/
+    align-self: stretch;
+    margin: 0;
+    padding-top: 24px;
+/*Typography*/
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    @include bold-lead;
+}
+
+
+
+//Modal Input
+
+.modal__search{
+padding:  0 24px;
+width: 768px;
+}
+
+.modal__label{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.modal__search-icon{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    
+}
+
+.modal__input{
+background-color: var(--Global-Fill-dark, #2B324C);;
+border: none;
+border-radius: 12px;
+width: 100%;
+height: 24px;
+}
+
+.modal__btn-close{
+
+}
+
+.modal__close-icon{
+
+}
+

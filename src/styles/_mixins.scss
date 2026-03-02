@@ -33,9 +33,17 @@
 }
 
 @mixin bold-body{
-    font-family: Rubik;
+    font-family: Rubik, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
+}
+
+@mixin headlines-headlines-h5{
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
 }

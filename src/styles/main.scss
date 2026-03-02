@@ -1,6 +1,7 @@
 @use './variables' as *;
 @use '/src/styles/mixins' as *;
 
+
 body{
     font-family: var(--font-main);
     margin: 0;
@@ -39,12 +40,22 @@ body{
     padding: 0 16px;
 }
 
-.icon {
+.btn-search{
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.icon-search {
     width: 28px;
     height: 28px;
     fill: currentColor; 
     color: #fff;
-    cursor: pointer;
 }
 
 
@@ -251,4 +262,6 @@ body{
         padding: 0;
         } // скрыть скролл в Chrome, Safari, Edge
 }
+
+
 

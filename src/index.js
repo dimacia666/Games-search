@@ -24,3 +24,9 @@ import { renderTopGamesGameCards } from './components/card/card';
 
 // запуск рендера
 renderTopGamesGameCards();
+
+// импорт модалки
+import { initModal } from './components/modal/modal';
+
+// инициация модалки
+initModal();
