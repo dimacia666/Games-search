@@ -13,7 +13,7 @@ import richPiggies2 from '../../assets/images/Rich piggies 2.png';
 import wildCash from '../../assets/images/Wild cash.png';
 import './card.scss';
 
-const gamesCards = [{
+ export const gamesCards = [{
     gameImg: alienFruits,
     gameName: "Alien fruits",
     tag: 'top games',

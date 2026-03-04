@@ -1,23 +1,26 @@
 @use '/src/styles/mixins' as *;
 
 .modal {
-    position: fixed;
+    position: absolute;
     inset: 0;
-    z-index: 1000;
-    
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
 }
 
 .modal__backdrop {
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 1054px;
 }
 
 .modal__content{
 /*Layout*/
     display: flex;
     width: 800px;
-    height: 1144px;
+    height: 865px;
     padding-bottom: 24px;
     flex-direction: column;
     align-items: center;
@@ -25,7 +28,7 @@
     border-radius: 16px;
     background: var(--Global-BG, #0F152B);
     margin: 99px 320px;
-    
+    z-index: 1;
 }
 
 
@@ -63,6 +66,7 @@
 }
 
 .modal__close-btn{
+    display: flex;
     border: none;
     width: 24px;
     height: 24px;
@@ -102,39 +106,126 @@
 //Modal Input
 
 .modal__search{
-padding:  0 24px;
-width: 768px;
+width: 100%;
 }
 
 .modal__label{
     position: relative;
     display: block;
-    width: 100%;
+    height: 48px;
+    padding: 0 24px;
+    
 }
 
 .modal__search-icon{
     position: absolute;
-    left: 16px;
+    left: 40px;
     top: 50%;
     transform: translateY(-50%);
     width: 24px;
     height: 24px;
-    
+    fill: currentColor;
+    color: var(--Greyscale-200, #9FA1AA);
+    cursor: pointer;
 }
 
 .modal__input{
-background-color: var(--Global-Fill-dark, #2B324C);;
-border: none;
-border-radius: 12px;
-width: 100%;
-height: 24px;
+    background-color: var(--Global-Fill-dark, #2B324C);
+    border: none;
+    border-radius: 12px;
+    width: 700px;
+    height: 48px;
+    padding-left: 48px;
+    color: #FFF;
 }
 
 .modal__btn-close{
-
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
 }
 
 .modal__close-icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    color: var(--Greyscale-200, #9FA1AA);
+}
+
+//Section Modal Top Games
+
+.modal__top-games{
+    display: flex;
+    flex-direction: column;
+    text-align: senter;
+    align-self: self-start;
+    padding-top: 24px;
+    padding-left: 28px;
+}
+
+.modal__top-games-heading{
+    margin: 0;
+    /*Layout*/
+    width: 199px;
+    /*Typography*/
+    color: var(--Global-white, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    @include bold-lead;
+}
+
+.modal__games-list{
+    padding: 0px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+//Game cards
+
+.modal__game-card {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 245px;
+    height: 216px;
+}
+
+.modal__game-card-image {
+    width: 100%;
+    height: 188px;
+}
+
+.modal__game-card-text {
+    width: 256px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+}
+
+.modal__game-card-provider {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    color: var(--Greyscale-200, #9FA1AA);
 
 }
 
+.modal__game-card-title {
+    /* Typograghy */
+    color: var(--Greyscale-200, #9FA1AA);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    @include bold-body
+}
