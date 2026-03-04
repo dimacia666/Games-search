@@ -3,9 +3,21 @@ import './styles/main.scss';
 
 
 //Импорт банера
-import bannerImg from './assets/images/baner.png';
+import bannerDesktop from './assets/images/baner.png';
+import bannerMobile from './assets/images/baner-mob.png';
+
 const banner = document.querySelector('.baner');
-banner.src = bannerImg;
+
+function updateBanner() {
+  if (window.innerWidth <= 376) {
+    banner.src = bannerMobile;
+  } else {
+    banner.src = bannerDesktop;
+  }
+}
+
+updateBanner();
+window.addEventListener('resize', updateBanner);
 
 // импорт GameWiner
 import { renderGameWiner } from './components/game_winer/game_winer';
@@ -30,3 +42,5 @@ import { initModal } from './components/modal/modal';
 
 // инициация модалки
 initModal();
+
+
